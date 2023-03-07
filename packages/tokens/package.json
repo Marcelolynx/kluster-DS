@@ -1,0 +1,22 @@
+{
+  "name": "@kluster-ds/tokens",
+  "version": "1.0.0",
+  "description": "A Sample Desing System Kluster-ui",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcelo Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "@kluster-ds/ts-config": "*",
+    "@kluster-ds/eslint-config": "*",
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5"
+  }
+}

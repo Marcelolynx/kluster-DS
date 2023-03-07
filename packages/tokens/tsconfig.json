@@ -1,0 +1,4 @@
+{
+  "extends": "@kluster-ds/ts-config/base.json",
+  "include": ["src"]
+}
