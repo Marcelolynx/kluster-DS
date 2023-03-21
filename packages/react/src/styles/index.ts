@@ -1,7 +1,22 @@
 import { colors, fonts, fontSizes, fontWeights, lineHeights, radii, space } from "@kluster-ds/tokens";
-import { createStitches } from "@stitches/react";
+import { createStitches, defaultThemeMap } from "@stitches/react";
 
-createStitches({
+export const {
+    styled,
+    css,
+    globalCss,
+    keyframes,
+    getCssText,
+    theme,
+    createTheme,
+    config,
+}= createStitches({
+    themeMap: {
+        ...defaultThemeMap,
+        height: 'space',
+        width: 'space',
+    },
+
     theme: {
         colors: colors,
         fonts: fonts,
@@ -9,6 +24,6 @@ createStitches({
         fontWeights: fontWeights,
         radii: radii,
         lineHeights: lineHeights,
-        space: space
-    }
+        space: space,
+    }, 
 })

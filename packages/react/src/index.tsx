@@ -1,5 +1,9 @@
-import { colors } from '@kluster-ds/tokens'
+import { styled } from './styles'
 
-export function App(){
-    return <h1 style={{color: colors.black}}>Hello World</h1>
-}
+
+export const Button = styled('button', {
+    fontFamily: '$default',
+    backgroundColor: '$black',
+    borderRadius: '$md',
+    height: '$10',
+})
