@@ -1,6 +1,19 @@
 declare const colors: {
     white: string;
     black: string;
+    default: string;
+    blue100: string;
+    blue200: string;
+    blue300: string;
+    green100: string;
+    green200: string;
+    green300: string;
+    green900: string;
+    red100: string;
+    red200: string;
+    orange100: string;
+    yellow100: string;
+    yellow200: string;
 };
 
 declare const fonts: {
@@ -22,6 +35,12 @@ declare const fontSizes: {
     '7xl': string;
     '8xl': string;
     '9xl': string;
+};
+
+declare const fontWeights: {
+    regular: string;
+    medium: string;
+    bold: string;
 };
 
 declare const space: {
@@ -58,4 +77,4 @@ declare const lineHeights: {
     tall: string;
 };
 
-export { colors, fontSizes, fonts, lineHeights, radii, space };
+export { colors, fontSizes, fontWeights, fonts, lineHeights, radii, space };

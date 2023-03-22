@@ -1,9 +1,19 @@
-import type { Meta, Story } from "@storybook/react"
-import { Button } from "@kluster-ds/react"
+import type { Meta, StoryObj } from '@storybook/react'
+import { Button, ButtonProps } from '@kluster-ds/react/src'
 
 export default {
-    title: "Button",
+    title: 'Button',
     component: Button,
-} as Meta
 
-export const Primary: Story<ButtonProps> = (args) => <Button {...args} />
+    args: {
+        children: 'Enviar',
+    },
+} as Meta<ButtonProps>
+
+export const Primary: StoryObj<ButtonProps> = {}
+
+export const big: StoryObj<ButtonProps> = {
+    args: {
+        size: 'big',
+    }
+}

@@ -1,4 +1,4 @@
--- Kluster Design System -- 
+-- COTIN Design System -- 
 #Components UI
 - []Text
 - []Heading

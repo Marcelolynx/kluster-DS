@@ -1,7 +1,7 @@
 {
   "name": "@kluster-ds/tokens",
   "version": "1.0.0",
-  "description": "A Sample Desing System Kluster-ui",
+  "description": "A Sample Desing System COTIN-ui",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
