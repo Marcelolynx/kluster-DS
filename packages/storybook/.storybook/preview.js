@@ -1,4 +1,7 @@
+import { themes } from '@storybook/theming';
+
 export const parameters = {
+  layout: 'centered',
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
     matchers: {
@@ -6,4 +9,7 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  docs: {
+    theme: themes.light,
+  }
 }

@@ -1,14 +1,12 @@
+/* eslint-disable prettier/prettier */
 import { ComponentProps } from 'react'
 import { styled } from './styles'
 
-export type ButtonProps = ComponentProps<typeof Button>
-
 export const Button = styled('button', {
     fontFamily: '$default',
-    backgroundColor: '$green100',
+    backgroundColor: '$blue300',
     borderRadius: '$md',
-    border: '1px solid  $white',
-    border: 0,
+    border: '1px solid  $white', 
     color: '$white',
 
     variants: {
@@ -30,3 +28,4 @@ export const Button = styled('button', {
     }
 })
  
+export type ButtonProps = ComponentProps<typeof Button>

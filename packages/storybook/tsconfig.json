@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+      "jsx": "react"
+  },
+  "compilerOptions": {
+      "jsx": "react"
+  },
+  "compilerOptions": {
+      "jsx": "react"
+  },
+  "compilerOptions": {
+      "jsx": "react"
+  },
+  "extends": "@kluster-ds/ts-config/base.json",
+  "include": ["src"]
+}

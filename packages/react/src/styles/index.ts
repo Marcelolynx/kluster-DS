@@ -1,5 +1,6 @@
+/* eslint-disable prettier/prettier */
 import { colors, fonts, fontSizes, fontWeights, lineHeights, radii, space } from "@kluster-ds/tokens";
-import { createStitches, defaultThemeMap } from "@stitches/react";
+import { createStitches, defaultThemeMap } from '@stitches/react';
 
 export const {
     styled,

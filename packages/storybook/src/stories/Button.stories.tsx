@@ -2,9 +2,8 @@ import type { Meta, StoryObj } from '@storybook/react'
 import { Button, ButtonProps } from '@kluster-ds/react/src'
 
 export default {
-    title: 'Button',
+    title: 'Form/Button',
     component: Button,
-
     args: {
         children: 'Enviar',
     },
